@@ -1,8 +1,8 @@
-# SSR Suspense
+## Fizz demo
 
-This project demonstrates server-side rendering (SSR) with React 18's Suspense feature using Node.js and TypeScript.
+`packages/fizz`
 
-## Setup
+### Setup
 
 1. Install dependencies using pnpm:
    ```bash
@@ -19,7 +19,24 @@ This project demonstrates server-side rendering (SSR) with React 18's Suspense f
    pnpm start
    ```
 
-## Project Structure
 
-- `src/index.tsx`: Entry point for server-side rendering.
-- `src/App.tsx`: Main React component with Suspense.
+## Flight demo
+
+`packages/flight`
+
+### Setup
+
+1. Install dependencies using pnpm:
+   ```bash
+   pnpm install
+   ```
+
+2. Build the project:
+   ```bash
+   pnpm build
+   ```
+
+3. Start the server:
+   ```bash
+   pnpm start
+   ```

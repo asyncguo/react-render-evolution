@@ -1,4 +1,4 @@
-## Fizz demo
+## Flight demo
 
 ### Setup
 
