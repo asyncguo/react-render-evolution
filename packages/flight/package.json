@@ -1,0 +1,33 @@
+{
+  "name": "http-chunk-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --conditions react-server server.js",
+    "build": "nodemon scripts/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/register": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "express": "^4.21.1",
+    "html-webpack-plugin": "^5.6.3",
+    "nodemon": "^3.1.7",
+    "react": "19.0.0-rc-5c56b873-20241107",
+    "react-dom": "19.0.0-rc-5c56b873-20241107",
+    "react-error-boundary": "^4.1.2",
+    "react-server-dom-webpack": "19.0.0-rc-5c56b873-20241107",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
