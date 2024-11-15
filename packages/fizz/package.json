@@ -1,0 +1,29 @@
+{
+  "name": "fizz",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon ./build/server.js",
+    "build": "concurrently \"pnpm dev:client\" \"pnpm dev:server\"",
+    "dev:client": "nodemon -- scripts/client.js",
+    "dev:server": "nodemon -- scripts/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "concurrently": "^9.0.1",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.1.2",
+    "rimraf": "^6.0.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "license": "MIT"
+}

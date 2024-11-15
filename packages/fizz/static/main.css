@@ -1,0 +1,80 @@
+body {
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+pre{
+  font-family: math;
+  font-size: 20px;
+  font-weight: bold;
+  color: blueviolet;
+  text-align: left;
+}
+
+.header{
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.main{
+  margin-top: 24px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.sidenav{
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.mainContent{
+  flex: 1;
+  margin-left: 24px;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.mainCode{
+  display: flex;
+  justify-content: center;
+}
+
+/* https://codepen.io/mandelid/pen/vwKoe */
+.spinner {
+  display: inline-block;
+  transition: opacity linear 0.1s;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(80, 80, 80, 0.5);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  opacity: 0;
+}
+.spinner--active {
+  opacity: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
